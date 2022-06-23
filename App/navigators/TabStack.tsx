@@ -63,7 +63,7 @@ const TabStack: React.FC = () => {
         <Tab.Screen
           name={Stacks.ScanStack}
           options={{
-            tabBarIcon: () => (
+            tabBarIcon: ({ color, focused }) => (
               <View
                 style={{
                   height: 60,

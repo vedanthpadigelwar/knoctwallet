@@ -62,22 +62,13 @@ const Terms: React.FC = () => {
         <InfoTextBox>Please agree to the terms and conditions below before using this application.</InfoTextBox>
         <Text style={[style.bodyText, { marginTop: 20, marginBottom: 20 }]}>
           <Text style={[style.bodyText, { fontWeight: 'bold' }]}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            These are important but yet to add.
           </Text>{' '}
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-          in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            This is not a product just and MVP.
         </Text>
-        <HighlightTextBox>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui</HighlightTextBox>
+        <HighlightTextBox>Must not cnosider as a production produt</HighlightTextBox>
         <Text style={[style.bodyText, { marginTop: 20 }]}>
-          Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-          exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-          in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Tempor incididunt ut labore et dolore magna
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-          est laborum.
+          we are with user and clients always dpending on the situation.
         </Text>
         <View style={[style.controls]}>
           <CheckBoxRow

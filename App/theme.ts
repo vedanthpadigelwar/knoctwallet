@@ -74,10 +74,10 @@ export const zeroOpacity = 0.0
 export const borderWidth = 2
 
 const BrandColors: BrandColors = {
-  primary: '#42803E',
-  highlight: '#FCBA19',
-  primaryBackground: '#000000',
-  secondaryBackground: '#313132',
+  primary: '#05BC61',
+  highlight: '#05BC61',
+  primaryBackground: '#ffffff',
+  secondaryBackground: '#ffffff',
   link: '#FFFFFF',
 }
 
@@ -95,7 +95,7 @@ const NotificationColors: NotificationColors = {
   info: '#313132',
   infoBorder: '#0099FF',
   infoIcon: '#0099FF',
-  infoText: '#FFFFFF',
+  infoText: '#B3C0CE',
   warn: '#313132',
   warnBorder: '#fcba19',
   warnIcon: '#fcba19',
@@ -130,7 +130,7 @@ export const BaseColors: BaseColor = {
   darkBlue: '#003366',
   darkBlueLightTransparent: `rgba(0, 51, 102, ${heavyOpacity})`,
   darkBlueHeavyTransparent: `rgba(0, 51, 102, ${lightOpacity})`,
-  darkGreen: '#35823F',
+  darkGreen: '#05BC61',
   darkGreenLightTransparent: `rgba(53, 130, 63, ${heavyOpacity})`,
   darkGreenHeavyTransparent: `rgba(53, 130, 63, ${lightOpacity})`,
   darkGrey: '#1C1C1E',
@@ -193,13 +193,13 @@ interface TextBoxTheme {
 
 export const Colors: ColorTheme = {
   accent: BaseColors.yellow,
-  background: BaseColors.black,
+  background: BaseColors.white,
   backgroundLight: BaseColors.lightGreen,
   borderLight: BaseColors.mediumGreen,
   primary: BaseColors.darkGreen,
   primaryActive: BaseColors.darkGreenHeavyTransparent,
   shadow: BaseColors.darkGrey,
-  text: BaseColors.white,
+  text: BaseColors.black,
   ...BaseColors,
   ...StatusColors,
 }

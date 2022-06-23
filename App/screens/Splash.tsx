@@ -19,6 +19,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: ColorPallet.brand.primaryBackground,
   },
+  image: {
+    width: 300,
+    height: 300,
+  },
 })
 
 const onboardingComplete = (state: Onboarding): boolean => {
@@ -79,7 +83,7 @@ const Splash: React.FC = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Image source={require('../assets/img/logo-large.png')} />
+      <Image style={styles.image} source={require('../assets/img/logo-large.png')} />
     </SafeAreaView>
   )
 }
